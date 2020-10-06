@@ -620,6 +620,7 @@ position: relative;
 }
 .item-catalog__image {
 	height: 223px;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -648,6 +649,7 @@ font-family: 'Bebas Neue Bold';
 	position: relative;
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
 }
 .item-catalog:nth-child(4n+1) {
 border-left: 2px solid #E9EBEF;
