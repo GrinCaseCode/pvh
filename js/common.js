@@ -24,8 +24,10 @@ if ( $(this).scrollTop() > 0 && menu.hasClass("default") ){
 		$(".sandwich").toggleClass("active");
 		if ($(".mobile-menu").is(":hidden")) {
 			$(".mobile-menu").slideDown(200);
+			$("body").addClass("body_menu");
 		} else {
 			$(".mobile-menu").slideUp(200);
+			$("body").removeClass("body_menu");
 		}
 		
 	});
@@ -33,6 +35,7 @@ if ( $(this).scrollTop() > 0 && menu.hasClass("default") ){
 	$(".mobile-menu li:not(.menu__child) a, .mobile-menu > a").click(function() {
 		$(".mobile-menu").slideUp(200);
 		$(".sandwich").removeClass("active");
+		$("body").removeClass("body_menu");
 	});
 
 

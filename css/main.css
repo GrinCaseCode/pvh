@@ -469,15 +469,7 @@ background: #F8F9FA;
 .card-advantage__icon img {
 	transition: all 0.3s;
 }
-.card-advantage__icon img:nth-child(2) {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
-	opacity: 0;
-}
+
 .card-advantage__name {
 font-size: 24px;
 line-height: 35px;
@@ -513,12 +505,10 @@ box-shadow: 0px 5px 10px rgba(42, 42, 42, 0.1);
 .card-advantage:hover .card-advantage__icon {
 	background-color: #E92626;
 }
-.card-advantage:hover .card-advantage__icon img:nth-child(1) {
-	opacity: 1;
+.card-advantage:hover .card-advantage__icon svg circle {
+	fill: #fff;
 }
-.card-advantage:hover .card-advantage__icon img:nth-child(2) {
-	opacity: 1;
-}
+
 .row_cards > div {
 	padding: 0 10px;
 	margin-top: 50px;
@@ -804,3 +794,6 @@ z-index: 2;
 	transform: rotate(-45deg);
 }
 /*End Sandwich*/
+.body_menu {
+	overflow: hidden;
+}

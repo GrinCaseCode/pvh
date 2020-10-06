@@ -322,7 +322,7 @@
     width: 115px;
     height: 115px;
     }
-    .card-advantage__icon img {
+    .card-advantage__icon svg {
     	max-width: 40px;
     	max-height: 40px;
     }
@@ -379,6 +379,9 @@ border-top: none !important;
     }
     .list-catalog li a {
     	padding-top: 15px;
+    }
+    .container {
+    	max-width: 100%;
     }
 }
 
