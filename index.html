@@ -18,8 +18,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.3" />
+	<link rel="stylesheet" href="css/media.css?ver=1.3" />
 </head>
 <body>
 
@@ -103,14 +103,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-7 pl_25">
-						<h1 class="title-main">ленточные <br><strong>ПВХ завесы</strong> от производителя</h1>
+						<div class="title-main">ленточные <br><strong>ПВХ завесы</strong> от производителя</div>
 						<div class="billbord__bottom">
 							<a href="#" class="btn-page">Каталог продукции</a>
 							<p>Собственный импорт из Германии, который обеспечивает выгодную цену для клиентов</p>
 						</div>
 					</div>
 					<div class="col-xl-4 col-lg-5 offset-xl-1 pl_6">
-						<h2 class="title-middle">Наша продукция <strong>сертифицирована</strong> как в Европе <br>так и в Украине</h2>
+						<div class="title-middle">Наша продукция <strong>сертифицирована</strong> как в Европе <br>так и в Украине</div>
 						<div class="billbord-sliders">
 							<ul class="slider-for">
 								<li>
@@ -179,15 +179,28 @@
 						<div class="descr-title"><strong>Основные задачи,</strong> которые решают ПВХ завесы</div>
 					</div>
 					<div class="col-xl-5 offset-xl-1 col-lg-6 od_tablet">
-						<h2 class="title-section">применение</h2>
+						<div class="title-section">применение</div>
 					</div>
 				</div>
 				<div class="row row_cards">
 					<div class="col-lg-3 col-6">
 						<div class="card-advantage">
 							<div class="card-advantage__icon">
-								<img src="img/ic_card_avd1_1.svg" alt="alt">
-								<img src="img/ic_card_avd1_2.svg" alt="alt">
+								<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="60" height="60">
+										<rect width="60" height="60" fill="url(#pattern0)"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<circle cx="37.5" cy="30.5" r="69.5" fill="#0041A5"/>
+									</g>
+									<defs>
+										<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+											<use xlink:href="#image0" transform="scale(0.0166667)"/>
+										</pattern>
+										<image id="image0" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABmJLR0QA/wD/AP+gvaeTAAAF4ElEQVRYCe2Z308cVRTHZ2cXSAAxNWijBI1oYqw14JNJH/pi2ia05cGGZPnZRlpQakxKNKlv/AX4WxEtRViWTUibaIg0NE3QB1+MrRJrmjT+KpTWH4EE5AEsu37OukOH6f6Y2bmzTJOSc/b+Oufc851z75l7h4CmFewv0NraeiSRSLzCjE/CQlcDgcDg6urq6fHx8TXp8JoDXk8g9gH6cDwe/ywQCOyRtpXpv0Tf/kgkcoPSU9I9tY7x3t5enaiOAiotWEQ0xp+DR6h7HoAgk3hKVVVVsoSP25ikpra29sbMzMx3NmTzFvE8wnh2GDbThK7r24Xp/BzeIKJsld0YU1UpBOAdZmeLioqOjYyM/Cm8vr7ebR6j/gzsKYXysG7Nttuc2CAjJ7LIV7S0tGQbF9VFfq6SEwZLS0sHBwYG/qVtmxwliVzZ1uasX5CxO0U2GAwOsozrpZ4nX2SVHIzFYvN29W0DbmxsDBYXF3+N4V2wn+ibtbW13bzH1+04pdsREhnAdlH6DSwuabtKSkqOSsUOh+wIpWQOp0qjkGzbMUICMjqkZA8uU5bDKmhpdHT0frOhpqYmyfCn6NsPJ4ltcUTTtI/hnGQ7wljaAW+QkW03Om5XLtyuuq5NWS2MjY39QcI6Zunf5JtlbFPTCeBNURsaGrq5yVKqQUI6SXURdksLJKSedEbSHEEr0sml63MCOJ3+HX1E4ArZt46Bs7AsbwpHtMQSPQPYOrLvrCNNG8JO9rANc/+LDA8PX6N2CPYd6b7zyGOH7gH2+AFvuXlP9nA2VLyn/2L8Jq+W8ySnT3nP/kS7YLQVS7oSdDsBe4JyhgfwTmdnZxH1gpBnEW5ra9vJO7kDFHvg7UTyQUorBel4bWVl5SnO6g2ch9doe0rKAeM4x+7iPsC+jOcCiCIn7UPpLaSOw56S0iUtYDlyTuCxOG4XLOJJ6mJ52z4iJjXy+FEKmFvLeyQjWcJ5uKIF2ded+Sg60VEGmOg8i8NHnUxuleVhvWDtU91WBhiwEh239h5TDdBqL2TtyLdtNzpka9tfWbL5kq8dtxEx+1Rtbvi1rizCAMwaOfZ4AplMtEzEKjINquxXGeFrLhxzo+toWmURZg+fI3E97Wj2lDC6k6lqsmhvb3+UDwByENlNRyXshv7Gr69CoVCP3NN1N5bMujh4ivY67JRupXSTeimw39N4EXYLFhNaJQ/0EHNcCofD1coA82nnMk/yfZnBCePM2+heMXRwTCK7zWgrLB/g01OfMsDiWHl5+RuUU7BdOjc3N/emRTjfk5rFTNrmXmV7WMzL/3k4Tx/kItBHO9vlQZb+B2VlZa9PT0/fQtZM95kbZO+s2d8sm65ueTtUKAUsE6aueK9yPeznxtRB3164Bhb6mSU8xdIv+MVfJhdWDliMCvMfiR8pT8C+It1X3hTAmXuAC/CQt3QKZXuYbHgAJO/Cj8O2KVcWxm62M7jteQxBZYAx+CFcDfuaVO5hlbY8e2gqnZSDxrxnnioyrGxJsxcn8KkK9jWpjLCvgRrO3Q2AJ3Rdr+E4+gTH0i8Nxymd9qOiacqWdNKaBz9cF7vZLrNiurm5uRvQv2n8Oe1HJUlOIvxPUiP1w+XgoVTV04KbV9yYgMvIRj1TfywWSz4c0YlGo79LaWYngC+bFZn8k0KAJpL94XD4Eb6EVPGZpt/wIVO/MZ6pdLKkYxh5HjaoAdANnISMdl4lyzWQQ/EAXyquA9AqlqnfKrepbTvCCwsLH6H5A3xXk23Ak5OTqzzlerLl+QIjzisbZ/LRNmAxQEKYj0aj+8iUL9H+FvCrlJ4SD7mbjwm/Mu8v8Xi825gsU78xnql0socNG4lIJHKahjCFt2TNxuzn5ISZ+iW58f35ugiR7O64zORKGKJXUCYJJiwTThDNLgAGiPAAq6o+Ne60P6nmR8DLeFYOe0FLuhdWXdq84FI/m/qU7wCzbE/i8SKsmhbYGj2+Ayz/diEx1YH2LCzLm8IVLbHvzwC2jrfM7H+/izJ8o6QMKAAAAABJRU5ErkJggg=="/>
+									</defs>
+								</svg>
+
 							</div>
 							<div class="card-advantage__name">Экономия электроенергии</div>
 							<p><strong>Снижаются затраты</strong> на отопление или охлаждение помещений, поскольку завесы <strong>эффективно блокируют</strong> потоки воздуха.</p>
@@ -196,8 +209,20 @@
 					<div class="col-lg-3 col-6">
 						<div class="card-advantage">
 							<div class="card-advantage__icon">
-								<img src="img/ic_card_avd2_1.svg" alt="alt">
-								<img src="img/ic_card_avd2_2.svg" alt="alt">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50" fill="none">
+									<mask id="mask02" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="50">
+										<rect width="50" height="50" fill="url(#pattern02)"/>
+									</mask>
+									<g mask="url(#mask02)">
+										<circle cx="24.5" cy="25.5" r="69.5" fill="#0041A5"/>
+									</g>
+									<defs>
+										<pattern id="pattern02" patternContentUnits="objectBoundingBox" width="1" height="1">
+											<use xlink:href="#image02" transform="scale(0.0192308)"/>
+										</pattern>
+										<image id="image02" width="52" height="52" xlink:href="data:image/png;base64,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"/>
+									</defs>
+								</svg>
 							</div>
 							<div class="card-advantage__name">Сохранение микроклимата</div>
 							<p><strong>Снижаются затраты</strong> на отопление или охлаждение помещений, поскольку завесы <strong>эффективно блокируют</strong> потоки воздуха.</p>
@@ -206,8 +231,20 @@
 					<div class="col-lg-3 col-6">
 						<div class="card-advantage">
 							<div class="card-advantage__icon">
-								<img src="img/ic_card_avd3_1.svg" alt="alt">
-								<img src="img/ic_card_avd3_2.svg" alt="alt">
+								<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<mask id="mask03" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+										<rect width="64" height="64" fill="url(#pattern03)"/>
+									</mask>
+									<g mask="url(#mask03)">
+										<circle cx="31.5" cy="32.5" r="69.5" fill="#0041A5"/>
+									</g>
+									<defs>
+										<pattern id="pattern03" patternContentUnits="objectBoundingBox" width="1" height="1">
+											<use xlink:href="#image03" transform="scale(0.015625)"/>
+										</pattern>
+										<image id="image03" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAADPklEQVRYCe2YO3ITQRCGNSvuYZernJEScg5Kjw2AAJMbbgEEfhA50BMSTqETUEVEJh2B1GWJr1USNdrd1uoxu1qhVnVrenpmerr/6emRXavZxxAwBAwBQ8AQMAROFQGnBd5qtWba2DHqB4NBZqzRMQYT0mcDICSaZssQOD4EMivjujCSr4NWXdfZCDm2rz8nXwTVDEgiG/LUDmFLy9STzwAD4BDpaHsaAtVBQH0FNBeTr4NWXbX1ofX7+nPyRVDNgCSyoU+ubHtapp58BhgAZaei7WcIVAsB9RXQ3Ey+Dlp11daH1mv+tNvtl7PZ7EH2c8697ff7I5GT/CypKLOPk43pdDobDoffQ+9L8F1sntf4IHdoLuAURSlNSQpO7grHBpzOECDeFbCt82yqcaoD3uLgogSP0XtYnHQA8TU0CAAbY38Cj51zIiOmqfQrQPBN3LiFJXiaOQkId4Dwh7v6ba7Z8ws7cufP8sxEeRNCji+C72KzDiepTib0AKGRHCiyX1oGNJvNFoF04KzgUc9pDgJAOV6X4Vyz4xdAbvQKRDva32oZwb/nHvZYVIfzSOb0AeEqb+K6cbKpy/ilMLIAj5imKK0Kq1kEf4dVBy/pcSl4ra+Tufd7giA2lubVONWB5cp9Wi14siF1zxe6FAhiYxcfsCeVf8LasVvzCkRMKITiOH7OxjcY90/iiXR8TYX+gX6FFro3KJ/gJWHC3YitpWLTFnsj6sgZfC6yti7SBvbV93q9X3j/0bPzSP8Vv/oGnm5FxNm+zEH5LxMA7IPYQlcIFQaAeAvyn2mvYQm+QT918oytkMwBBLkiAsI1gH1ZmbBhR14BashvYZG1ZYUCIJtyqp8I6IUEJv1NWObKGlm7yfysOWROF/2lMHKHNpOiTG1gJQH93NbkLmsSezivr8apDniLj1Ikg2Icn8Bjt+YVKO2XII6USmTQiA2r9bcADlWODpYBFDj/jgYHRio/xe9BDHMFqvkfIXGuKCb4LrbPa3yQOzQXcIqilOb/UTgvFDVOdcBbfJQiaR/j+AQeuzWvgI8Sc/OJX1az/FmHm7FtbYkO52o1djYAqnEO5oUhYAgYAoaAIWAIGALlI/AXUrz/0Yad3V8AAAAASUVORK5CYII="/>
+									</defs>
+								</svg>
 							</div>
 							<div class="card-advantage__name">Разделение помещений</div>
 							<p><strong>Снижаются затраты</strong> на отопление или охлаждение помещений, поскольку завесы <strong>эффективно блокируют</strong> потоки воздуха.</p>
@@ -216,8 +253,20 @@
 					<div class="col-lg-3 col-6">
 						<div class="card-advantage">
 							<div class="card-advantage__icon">
-								<img src="img/ic_card_avd4_1.svg" alt="alt">
-								<img src="img/ic_card_avd4_2.svg" alt="alt">
+								<svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<mask id="mask04" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="55" height="55">
+										<rect width="55" height="55" fill="url(#pattern04)"/>
+									</mask>
+									<g mask="url(#mask04)">
+										<circle cx="28" cy="27" r="43" fill="#0041A5"/>
+									</g>
+									<defs>
+										<pattern id="pattern04" patternContentUnits="objectBoundingBox" width="1" height="1">
+											<use xlink:href="#image04" transform="scale(0.0166667)"/>
+										</pattern>
+										<image id="image04" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABmJLR0QA/wD/AP+gvaeTAAAHdUlEQVRYCe2Zf0yVVRjHXy4/E2wyyQp/kESTmhTrD1dba2xmLWdaLTZ+iGNqmLYVLcl0RaRzs9lEzOZitTkRbkqNmRnmdLr+qPyPscxmVlqoNBBJuREXkD7n+p7r+557ubzve18QN+6e5z3nec5znvN8z3POeX9cTZv4TczAxAzczjMQMxrBFxUVZXg8nq1DQ0Pz8J8B26HzGH8Pv1VfX99G6SrFuOoNZ8XFxTMoWuFUOBq6TOdct0HH4dRt+gCH0YLFhTaVi/BVTGmikpKS5MHBwdUxMTEVNEyDw9Ff169ff9Xr9R40No4G4DzNvd+TRlcSKEAqADscUNllJttqF8KoA05nkCCxJG1tG7bEULCzpontodkEauiuhYw9Ghk2Dhh1nQNwrcWMqmO10+8VVTnuAbN0t6pB6/IF7gIb+/v7dzc2Nvp13YjFuAJcWlo6BQAjBe0IqHQ6LgALoAMDA28Ddo0MLEx5kYy+j42tjKp+bilgBehkNThddgWo7ku7JYAtAg3E2NXVldnc3NwXEFy4jClgTtxU7o3rWJZi6Q6X0QAslq/GgaW5CVY4HhPAEigg1sDDAb1EW5WmaZ8IoIKpu04e1z0qDpcuXbqF4M8DZh1N4cBeor08OTk5q6GhoZY6ZqNHo55hHeiwCATQ2traf4c1cLnB1QyLpWs3vrEEK2JzJcMCqDiMyKY4jITfcNzOct2CzfZwjWOliyrDAqiFPSqAljMhWXv37q0ZK2DDjeMowwIoANaRrUinbmBM7LLq6up8AWEcXGwBtgNUYhtPYEVMIYBZoovJ3E4aZ8IhRFuITlf8Q1kDV8LjlkL2MIB2EW1YsOjD0VX6bIJn87L/XjiD8aQLyTDBhXwlQBeOrqLc4ff7q3kf7aJ+W1BIhrl1iK8E7RGiv0bbZoCKjL5rBMsez6TNVSooKLhPc/EXkmFuHV/hXzCFdSosLHyYyTpmvYc1y9jY2JN805pfV1f3k7Ueka08kZuttRLQbAI7inUabKRzmv3fOc38m8a3qWMlJSWzzWpnUtSAebdNIqAvOLTuUkJoQveoohtR1Ps0KYYCdFNZWdkkRW9bDFnSdj2wlzewlE3AkKvZGm/iawi2RbwxXaHDi3yuraYshyU94vP53kHYADumGMc96SiWGf8AnAZgIqKkfdyeCqQgS2znshJWIBtBiJf8arL6KX1+ps1EPBPspy1fKqn3sXUeZD//IXV2y6iWNADWKmDbEhMTXzYGkZ+fn0C2dmLbgr4cNhEg3kDRik0NSzaeepBoW4lwAQ6QGAs/YuUEZCcXxxkGSEpCQsLfDBrcVwRUxFL2ogsQNgnx8fFfo18QUIx8+ZYtsphbnV+aMhFF1OthST6ez+8myz6psFM6zjCZXMhAk2BJv/f19e2Xgiix+cgGWNHlGSZR7F1RDzATsI+KcQknk+Vn0Tkix4BZbk8pI+4nM4NSR2ZysFkpZRvlKvo+JO11n41S1sv5emm7cAyYkXJhIx03CoAtQ3biP1bvS/cbxCox+Uarjo3KGjkJSHqeJSui5PQ8JUrJBOk4C2pf/pUw+WaMDNgROQZMFqYYR+zo6Og0ytRnwk7JBCgpKalDcZSqyJZFx4DJQr9xlLS0tDijTN3xHYC+JuJUjjcpNM00ttIWUXQMmAxfNHrmASTdKFP/E3ZKpr69vb3TFUcXFNmy6LFsqRgy65cUVaZRZgUcNsp26vRtNtojm3yrk220HanuGckgQrvpUZCgFhptyfhnyIOwXRrQ+wb7MbmLgsKNimnsGyprV8eAmeWDyhBLeLKKlTqv13sKm51Stloycdvp+4u0F4+b+HleyqLERh1bqC2xY8D8RXKUEbphSRk8Rq6QgihTUlIqKI/AVulwW1vbeqNxT0/PauR7YUlXGPu4FOyWjgHzF0k/g+2Dg8TMVy5fvjz4h5mw4dHwOQw+hiMtb9G2AyCLT5w4MYBtgHjiuhOf6wPCzYtX+L0p2qtFdevglU+8mJ9lyMmwpCN+v3+h/kgodRq28vXwaZSZsKDfAHSEJRvyepiXlxeXnp7+De0LhKHOV/GdhW/1vqw3j1xEBVi458PdZoLaIOqSAbCNF/m1yEOwbaqqqvKcOXNmG35fN3bG7yb8Vhp1duuxdjuo9tnZ2T/wWCmyMF22EejjOTk5c3Nzcw+1trb2S72VkoMvpbu7+3N8lGrm34+8Sa1saWkZMKvtSVFnWAy3bNmyqbyynSQD9wvZwJ3oPiTQmt27d/9n0IdUAXoHh95rAK2gcSpspLNM6mN79uy5bFQ6qbsCWAys79FD1GfBKomHlCaUB7in/trZ2XmRupaamjqd8gF0S5iYF6jfA6t0jslcxK3qlNrgRHYNsBgc0NMI/Ev4CSG7wN9xSL0UzSGlxhCrKqKR2a++OXPm1MfFxfXjZx6cADuhHjpt5Da1ik8516i7Rq5m2BgVf5GkA3wj2S5EPwm2Qj6MGtjLlez5SH/3YOaMRg2wDEccRnzbWgDwJeiy4Rmw3Kvt1Ns4qE7z/HyAF/2jLN9edBM0MQMTMzAxA2Fn4H96pdAZuIcm4AAAAABJRU5ErkJggg=="/>
+									</defs>
+								</svg>
 							</div>
 							<div class="card-advantage__name">Поддержание температуры</div>
 							<p><strong>Снижаются затраты</strong> на отопление или охлаждение помещений, поскольку завесы <strong>эффективно блокируют</strong> потоки воздуха.</p>
@@ -272,7 +321,7 @@
 						<div class="descr-title"><strong>Самые популярные</strong> <br>ленточные ПВХ завесы</div>
 					</div>
 					<div class="col-xl-5 offset-xl-1 col-lg-6 od_tablet">
-						<h2 class="title-section">каталог</h2>
+						<div class="title-section">каталог</div>
 					</div>
 				</div>
 				<div class="head-catalog">
@@ -378,7 +427,7 @@
 <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
 <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 <script src="libs/slick-1.5.9/slick/slick.min.js"></script>
-<script src="js/common.js"></script>
+<script src="js/common.js?ver=1.3"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
